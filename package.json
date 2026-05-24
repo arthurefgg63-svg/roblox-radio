@@ -1,0 +1,28 @@
+{
+  "name": "roblox-discord-radio-secure",
+  "version": "1.0.0",
+  "description": "API de Rádio Individual e Blindada conectando Roblox ao Discord via Railway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "roblox",
+    "discord",
+    "audio",
+    "radio",
+    "railway"
+  ],
+  "author": "Desenvolvedor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "0.16.0",
+    "play-dl": "1.9.7",
+    "libsodium-wrappers": "0.7.13"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
